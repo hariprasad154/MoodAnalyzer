@@ -2,10 +2,10 @@ package Com.bridgeLabs;
 
 
 public class MoodAnalyzerMain {
-    public MoodAnalyzerMain(){
+    public MoodAnalyzerMain(String iAmInHappyMood){
     }
 
-    public String analyseMood(String message) {
+    public String analyseMood() {
         if (message.contains("Sad"))
             return "SAD";
         else
